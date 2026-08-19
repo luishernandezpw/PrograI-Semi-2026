@@ -13,17 +13,26 @@ namespace miPrimeaAplicacion {
         public Form1() {
             InitializeComponent();
         }
+        double media(double[] serie){
+            double suma = 0;
+            for (int i = 0; i < serie.Length; i++){
+                suma += serie[i];
+            }
+            double media = suma / serie.Length;
+            return media;
+        }
+        double desviacionTipica(double[] serie, double media){
+            return Math.Sqrt(serie.Average(n => Math.Pow(n - media, 2)));
+        }
 
         private void btnProcesar_Click(object sender, EventArgs e)
         {
             String[] serie = txtSerie.Text.Split(',');
             double[] miSerie = serie.Select(n=>double.Parse(n)).ToArray();
-            double suma = 0;
-            for (int i = 0; i < serie.Length; i++){
-                suma += miSerie[i];
-            }
-            double media = suma / miSerie.Length;
-            ltsValores.Items.Add("La media es: " + media);
+            double m = media(miSerie);
+
+            ltsValores.Items.Add("La media es: " + m);
+            ltsValores.Items.Add("La desviacion tipica: "+ desviacionTipica(miSerie, m));
         }
     }
 }
