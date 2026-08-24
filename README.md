@@ -4,7 +4,7 @@ Clases y codigo de la catedra de Programación Computacional I
 # Proyecto Final
 
 ## Tecnologias a utilizar 
-* Visual Studio 2019
+* Visual Studio 2019, 2022 o 2026
 * C#
 * SQL Server Express - u otros
 * ASP.NET
