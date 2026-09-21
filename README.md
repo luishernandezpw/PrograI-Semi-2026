@@ -4,7 +4,7 @@ Código, ejemplos y practicas de la materia Progrmación Computacional I
 # Proyecto Final
 
 ## Tecnologias a utilizar 
-* Visual Studio 2019
+* Visual Studio 20xx
 * C#
 * SQL Server Express - u otros
 * ASP.NET
