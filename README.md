@@ -23,4 +23,4 @@ Código, ejemplos y practicas de la materia Progrmación Computacional I
 * 3 Formularios Avanzados (Alta complejidad o 3 o mas tablas anidadas)
 * 10 reportes (salida de informacion o presentacion de informacion al usuario)
 * Menus y accesos rapidos, barras de herramientas, cuadros de dialogo
-* Creatividad e innovacion.
+* Creatividad e innovacion (IA)
