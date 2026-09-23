@@ -18,3 +18,5 @@ D:\Users\Estudiante\Desktop\PrograI-Semi-2026\miPrimeaAplicacion\miPrimeaAplicac
 D:\Users\Estudiante\Desktop\PrograI-Semi-2026\miPrimeaAplicacion\miPrimeaAplicacion\obj\Debug\miPrimeaAplicacion.csproj.CoreCompileInputs.cache
 D:\Users\Estudiante\Desktop\PrograI-Semi-2026\miPrimeaAplicacion\miPrimeaAplicacion\obj\Debug\miPrimeaAplicacion.exe
 D:\Users\Estudiante\Desktop\PrograI-Semi-2026\miPrimeaAplicacion\miPrimeaAplicacion\obj\Debug\miPrimeaAplicacion.pdb
+D:\Users\Estudiante\Desktop\PrograI-Semi-2026\miPrimeaAplicacion\miPrimeaAplicacion\bin\Debug\db_academica.mdf
+D:\Users\Estudiante\Desktop\PrograI-Semi-2026\miPrimeaAplicacion\miPrimeaAplicacion\bin\Debug\db_academica_log.ldf
