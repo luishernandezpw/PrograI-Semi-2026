@@ -44,6 +44,9 @@
             this.grbEdicion = new System.Windows.Forms.GroupBox();
             this.btnModificarALumno = new System.Windows.Forms.Button();
             this.btnAgregarAlumno = new System.Windows.Forms.Button();
+            this.lblIdAlumno = new System.Windows.Forms.Label();
+            this.idAlumno = new System.Windows.Forms.Label();
+            this.btnEliminarAlumno = new System.Windows.Forms.Button();
             this.grbDatos.SuspendLayout();
             this.grbNavegacion.SuspendLayout();
             this.grbEdicion.SuspendLayout();
@@ -51,6 +54,8 @@
             // 
             // grbDatos
             // 
+            this.grbDatos.Controls.Add(this.idAlumno);
+            this.grbDatos.Controls.Add(this.lblIdAlumno);
             this.grbDatos.Controls.Add(this.txtEmailAlumno);
             this.grbDatos.Controls.Add(this.lblEmailAlumno);
             this.grbDatos.Controls.Add(this.txtTelefonoAlumno);
@@ -229,11 +234,12 @@
             // 
             // grbEdicion
             // 
+            this.grbEdicion.Controls.Add(this.btnEliminarAlumno);
             this.grbEdicion.Controls.Add(this.btnModificarALumno);
             this.grbEdicion.Controls.Add(this.btnAgregarAlumno);
             this.grbEdicion.Location = new System.Drawing.Point(248, 333);
             this.grbEdicion.Name = "grbEdicion";
-            this.grbEdicion.Size = new System.Drawing.Size(231, 61);
+            this.grbEdicion.Size = new System.Drawing.Size(317, 61);
             this.grbEdicion.TabIndex = 3;
             this.grbEdicion.TabStop = false;
             this.grbEdicion.Text = "Edicion";
@@ -241,9 +247,9 @@
             // btnModificarALumno
             // 
             this.btnModificarALumno.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificarALumno.Location = new System.Drawing.Point(93, 19);
+            this.btnModificarALumno.Location = new System.Drawing.Point(89, 19);
             this.btnModificarALumno.Name = "btnModificarALumno";
-            this.btnModificarALumno.Size = new System.Drawing.Size(96, 36);
+            this.btnModificarALumno.Size = new System.Drawing.Size(95, 36);
             this.btnModificarALumno.TabIndex = 8;
             this.btnModificarALumno.Text = "Modificar";
             this.btnModificarALumno.UseVisualStyleBackColor = true;
@@ -259,6 +265,35 @@
             this.btnAgregarAlumno.Text = "Agregar";
             this.btnAgregarAlumno.UseVisualStyleBackColor = true;
             this.btnAgregarAlumno.Click += new System.EventHandler(this.btnAgregarAlumno_Click);
+            // 
+            // lblIdAlumno
+            // 
+            this.lblIdAlumno.AutoSize = true;
+            this.lblIdAlumno.Location = new System.Drawing.Point(19, 16);
+            this.lblIdAlumno.Name = "lblIdAlumno";
+            this.lblIdAlumno.Size = new System.Drawing.Size(21, 13);
+            this.lblIdAlumno.TabIndex = 10;
+            this.lblIdAlumno.Text = "ID:";
+            // 
+            // idAlumno
+            // 
+            this.idAlumno.AutoSize = true;
+            this.idAlumno.Location = new System.Drawing.Point(98, 16);
+            this.idAlumno.Name = "idAlumno";
+            this.idAlumno.Size = new System.Drawing.Size(13, 13);
+            this.idAlumno.TabIndex = 11;
+            this.idAlumno.Text = "0";
+            // 
+            // btnEliminarAlumno
+            // 
+            this.btnEliminarAlumno.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarAlumno.Location = new System.Drawing.Point(190, 20);
+            this.btnEliminarAlumno.Name = "btnEliminarAlumno";
+            this.btnEliminarAlumno.Size = new System.Drawing.Size(95, 36);
+            this.btnEliminarAlumno.TabIndex = 9;
+            this.btnEliminarAlumno.Text = "Eliminar";
+            this.btnEliminarAlumno.UseVisualStyleBackColor = true;
+            this.btnEliminarAlumno.Click += new System.EventHandler(this.btnEliminarAlumno_Click);
             // 
             // Form1
             // 
@@ -303,6 +338,9 @@
         private System.Windows.Forms.Button btnModificarALumno;
         private System.Windows.Forms.Button btnAgregarAlumno;
         private System.Windows.Forms.Label lblRegistrosAlumnos;
+        private System.Windows.Forms.Label lblIdAlumno;
+        private System.Windows.Forms.Label idAlumno;
+        private System.Windows.Forms.Button btnEliminarAlumno;
     }
 }
 

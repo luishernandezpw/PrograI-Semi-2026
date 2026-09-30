@@ -30,5 +30,42 @@ namespace miPrimeaAplicacion {
 
             return objDs;
         }
+        public string administrarDatosAlumnos(String[] datos, String accion)
+        {
+            String sql = "";
+            if (accion == "nuevo"){
+                sql = "INSERT INTO alumnos(codigo,nombre,direccion,telefono,email) VALUES ('" + datos[1] + "', '" + datos[2] + "', '" + datos[3] + "', '" + datos[4] + "', '" + datos[5] + "')";
+            }else if (accion == "modificar"){
+                sql = "UPDATE alumnos SET codigo='" + datos[1] + "', nombre='" + datos[2] + "', direccion='" + datos[3] + "', telefono='" + datos[4] + "', email='" + datos[5] + "' WHERE idAlumno='" + datos[0] + "'";
+            }else if (accion == "eliminar"){
+                sql = "DELETE FROM alumnos WHERE idAlumno='" + datos[0] + "'";
+            }
+            return ejecutarSQL(sql);
+        }
+        public string administrarDatosMaterias(String[] datos, String accion){
+            String sql = "";
+            if (accion == "nuevo"){
+                sql = "INSERT INTO materias(codigo,nombre,uv) VALUES ('" + datos[1] + "', '" + datos[2] + "', '" + datos[3] + "')";
+            }else if (accion == "modificar"){
+                sql = "UPDATE materias SET codigo='" + datos[1] + "', nombre='" + datos[2] + "', uv='" + datos[3] + "' WHERE idMateria='" + datos[0] + "'";
+            }else if (accion == "eliminar"){
+                sql = "DELETE FROM materias WHERE idMateria='" + datos[0] + "'";
+            }
+            return ejecutarSQL(sql);
+        }
+        public String ejecutarSQL(String sql)
+        {
+            try
+            {
+                objComando.Connection = objConexion;
+                objComando.CommandText = sql;
+                return objComando.ExecuteNonQuery().ToString();
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+
     }
 }
