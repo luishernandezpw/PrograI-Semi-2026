@@ -29,6 +29,7 @@ namespace miPrimeaAplicacion {
             dt = ds.Tables["alumnos"];
             dt.PrimaryKey = new DataColumn[] { dt.Columns["idAlumno"] };
 
+            grdDatosAlumnos.DataSource = dt.DefaultView;
             mostrarDatos();
         }
         private void mostrarDatos()
@@ -58,6 +59,8 @@ namespace miPrimeaAplicacion {
         {
             grbDatos.Enabled = estado;
             grbNavegacion.Enabled = !estado;
+            btnEliminarAlumno.Enabled = !estado;
+            txtBuscarAlumnos.Enabled = !estado;
         }
         private void btnAgregarAlumno_Click(object sender, EventArgs e)
         {
@@ -150,6 +153,47 @@ namespace miPrimeaAplicacion {
                 }
             }
 
+        }
+        private void txtBuscarAlumnos_KeyUp(object sender, KeyEventArgs e)
+        {
+            try
+            {
+                filtrarDatos(txtBuscarAlumnos.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+        private void filtrarDatos(String valor)
+        {
+            try
+            {
+                DataView dv = dt.DefaultView;
+                dv.RowFilter = "codigo like '%"+valor+"%' or nombre like '%" + valor + "%'";
+                grdDatosAlumnos.DataSource = dv;
+                seleccionarAlumno();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+        private void seleccionarAlumno()
+        {
+            try
+            {
+                if (grdDatosAlumnos.CurrentRow == null){
+                    MessageBox.Show("No hay filas que mostrar");
+                    return;
+                }
+                String id = grdDatosAlumnos.CurrentRow.Cells["id"].Value.ToString();
+                posicion = dt.Rows.IndexOf(dt.Rows.Find(id));
+                mostrarDatos();
+            }catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
