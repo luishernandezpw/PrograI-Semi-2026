@@ -1,0 +1,3 @@
+wwwroot\views\index.html
+wwwroot\img\logo.webp
+D:\Users\Estudiante\Desktop\PrograI-Semi-2026\webapp\webapp\wwwroot\views\index.html
