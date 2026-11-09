@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Estudiante\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj": {}
+    "C:\\Users\\Luis Hernandez\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Estudiante\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj": {
+    "C:\\Users\\Luis Hernandez\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Estudiante\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Hernandez\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj",
         "projectName": "webapp",
-        "projectPath": "D:\\Users\\Estudiante\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj",
-        "packagesPath": "C:\\Users\\Estudiante\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Estudiante\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\obj\\",
+        "projectPath": "C:\\Users\\Luis Hernandez\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj",
+        "packagesPath": "C:\\Users\\Luis Hernandez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Hernandez\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Estudiante\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -62,13 +62,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[10.0.13, )"
+              "version": "[10.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.13, )"
+              "version": "[10.0.14, )"
             }
           },
           "imports": [
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
