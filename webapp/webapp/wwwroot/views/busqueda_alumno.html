@@ -1,0 +1,56 @@
+﻿<form id="frmBusquedaAlumno">
+    <div class="card theme-secondary" style="min-width:700px;">
+        <div class="card-header">
+            <div class="d-flex">
+                Busqueda de Alumnos
+
+                <div class="ms-auto">
+                    <button data-ng-form="busqueda_alumno" type="button" class="btn-close" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table id="tblConsultaAlumnos" class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="6">
+                            <input type="search" class="form-control" placeholder="Buscar alumnos por codigo, nombre"
+                                   name="txtBuscarAlumno" id="txtBuscarAlumno" />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>CODIGO</th>
+                        <th>NOMBRE</th>
+                        <th>DIRECCION</th>
+                        <th>TELEFONO</th>
+                        <th>EMAIL</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</form>
+<script>
+txtBuscarAlumno.addEventListener('keyup', e => {
+    listarAlumnos(txtBuscarAlumno.value);
+    });
+    async function listarAlumnos(buscar='') {
+        let alumnos = await obtenerAlumnos(buscar),
+            filas = '';
+        alumnos.forEach(alumno => {
+            filas = + `
+                <tr>
+                    <td>${alumno.codigo}</td>
+                    <td>${alumno.nombre}</td>
+                    <td>${alumno.direccion}</td>
+                    <td>${alumno.telefono}</td>
+                    <td>${alumno.email}</td>
+                    <td></td>
+                </tr>
+            `;
+        });
+        document.querySelector("#tblConsultaAlumnos > tbody").innerHTML = filas;
+    }
+</script>

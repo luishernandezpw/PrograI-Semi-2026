@@ -75,7 +75,7 @@ async function guardarAlumno() {
     const respuesta = await fetch(url, {
         method,
         header: { "Content-Type": "application/json" },
-        body:JSON.stringfy(datos)
+        body:JSON.stringify(datos)
     }), alumnos = await respuesta.json();
 }
 </script>

@@ -1,7 +1,7 @@
 wwwroot\img\logo.webp
-wwwroot\views\alumno.html
-wwwroot\views\index.html
 wwwroot\views\app.js
-C:\Users\Luis Hernandez\Desktop\PrograI-Semi-2026\webapp\webapp\wwwroot\views\index.html
-C:\Users\Luis Hernandez\Desktop\PrograI-Semi-2026\webapp\webapp\wwwroot\views\app.js
-C:\Users\Luis Hernandez\Desktop\PrograI-Semi-2026\webapp\webapp\wwwroot\views\alumno.html
+wwwroot\views\index.html
+wwwroot\views\alumno.html
+D:\Users\Estudiante\Desktop\PrograI-Semi-2026\webapp\webapp\wwwroot\views\app.js
+D:\Users\Estudiante\Desktop\PrograI-Semi-2026\webapp\webapp\wwwroot\views\index.html
+D:\Users\Estudiante\Desktop\PrograI-Semi-2026\webapp\webapp\wwwroot\views\alumno.html

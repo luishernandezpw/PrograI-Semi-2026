@@ -506,11 +506,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/10.0.13": {
+      "Microsoft.EntityFrameworkCore/10.0.14": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.13",
-          "Microsoft.EntityFrameworkCore.Analyzers": "10.0.13"
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.14",
+          "Microsoft.EntityFrameworkCore.Analyzers": "10.0.14"
         },
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
@@ -526,7 +526,7 @@
           "buildTransitive/net10.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/10.0.13": {
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.14": {
         "type": "package",
         "compile": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -539,7 +539,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/10.0.13": {
+      "Microsoft.EntityFrameworkCore.Analyzers/10.0.14": {
         "type": "package"
       },
       "Microsoft.EntityFrameworkCore.Design/10.0.14": {
@@ -2384,10 +2384,10 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
-    "Microsoft.EntityFrameworkCore/10.0.13": {
-      "sha512": "u/z4nTQUJ5nJEXAQekgQEQZkh0delp4gL+ESHn7Z6k037c8HC5mSNu1/YdBgxGm7DtLjhOxktNl+aQMzw6wN7A==",
+    "Microsoft.EntityFrameworkCore/10.0.14": {
+      "sha512": "vY3931PYPIDBbKovGHbACmpOWvURvKNyRXfCjMh5yLW+FH6vLWeqUu2xzSCRo4Oz4tgx9GYpd0JlV5LDyAoQdg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/10.0.13",
+      "path": "microsoft.entityframeworkcore/10.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2396,14 +2396,14 @@
         "buildTransitive/net10.0/Microsoft.EntityFrameworkCore.props",
         "lib/net10.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.10.0.13.nupkg.sha512",
+        "microsoft.entityframeworkcore.10.0.14.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/10.0.13": {
-      "sha512": "ARw+tZ3eiTosnK5nJPUGEzeUQcjyqCqs3qKA3lPtIRH5yJo3qIgxm7AvkZVIT9iWkS2083UsWe3Rj1MysW3p5A==",
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.14": {
+      "sha512": "/SaznoTTFfKzxYEbCPAwwKBR3XT92DZgH4jJ3/cqs2skP3o2D+TL6i9Aaj+8Azwtu6/sRd0ve4P2mN12nfVmCw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/10.0.13",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2411,21 +2411,21 @@
         "PACKAGE.md",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.10.0.13.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.10.0.14.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/10.0.13": {
-      "sha512": "zBx6VeEz/hkhlm0BJ2V+9xebUuDDIszcKvurJceQHuZPEXuXubrL6Lneo9VZiliRyJbQlB2oNKLkJXd3gHteQA==",
+    "Microsoft.EntityFrameworkCore.Analyzers/10.0.14": {
+      "sha512": "gaANlGNTxkgODX2eeVT8jjd3AmlFilQV4DFf8qoW30+wUCm2o4N7nEHtZvnHIwfhaJni2DqcjE47Au7tC0Q5jA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/10.0.13",
+      "path": "microsoft.entityframeworkcore.analyzers/10.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "docs/PACKAGE.md",
-        "microsoft.entityframeworkcore.analyzers.10.0.13.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.10.0.14.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -3211,29 +3211,29 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.AspNetCore.OpenApi >= 10.0.10",
-      "Microsoft.EntityFrameworkCore >= 10.0.13",
+      "Microsoft.EntityFrameworkCore >= 10.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.14"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luis Hernandez\\.nuget\\packages\\": {},
+    "C:\\Users\\Estudiante\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis Hernandez\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj",
+      "projectUniqueName": "D:\\Users\\Estudiante\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj",
       "projectName": "webapp",
-      "projectPath": "C:\\Users\\Luis Hernandez\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj",
-      "packagesPath": "C:\\Users\\Luis Hernandez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis Hernandez\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\obj\\",
+      "projectPath": "D:\\Users\\Estudiante\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\webapp.csproj",
+      "packagesPath": "C:\\Users\\Estudiante\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Estudiante\\Desktop\\PrograI-Semi-2026\\webapp\\webapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Luis Hernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Estudiante\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3261,7 +3261,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
@@ -3274,7 +3274,7 @@
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[10.0.13, )"
+            "version": "[10.0.14, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -3306,7 +3306,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -3751,15 +3751,6 @@
       "warningLevel": 1,
       "message": "El paquete \"System.Security.Cryptography.Pkcs\" 9.0.11 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-846f-f764-76mx",
       "libraryId": "System.Security.Cryptography.Pkcs",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Advertencia como error: Degradación del paquete detectada: Microsoft.EntityFrameworkCore de 10.0.14 a 10.0.13. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n webapp -> Microsoft.EntityFrameworkCore.SqlServer 10.0.14 -> Microsoft.EntityFrameworkCore.Relational 10.0.14 -> Microsoft.EntityFrameworkCore (>= 10.0.14) \r\n webapp -> Microsoft.EntityFrameworkCore (>= 10.0.13)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net10.0"
       ]
